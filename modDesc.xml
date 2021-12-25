@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="62">
+    <author>crpl</author>
+    <version>0.1.0.0</version>
+	
+    <title>
+        <en>Third Person View</en>
+        <!--de></de>
+        <fr></fr>
+        <pl></pl>
+        <es></es>
+        <it></it>
+        <cz></cz-->
+    </title>
+	
+    <description>
+		<!--TODO: make new descriptions-->
+		<en><![CDATA[TODO]]></en>
+		<de><![CDATA[TODO]]></de>
+		<fr><![CDATA[TODO]]></fr>
+		<es><![CDATA[TODO]]></es>
+		<it><![CDATA[TODO]]></it>
+		<cz><![CDATA[TODO]]></cz>
+		<pl><![CDATA[TODO]]></pl>
+    </description>
+	
+    <iconFilename>icon.dds</iconFilename>
+  
+    <multiplayer supported="false"/>
+	
+    <extraSourceFiles>
+        <sourceFile filename="main.lua"/>
+    </extraSourceFiles>
+	
+	<actions>
+		<action name="TOGGLE_3RD_PERSON_VIEW" axisType="HALF"/>
+	</actions>
+	
+	<inputBinding>
+		<actionBinding action="TOGGLE_3RD_PERSON_VIEW">
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_c" />
+		</actionBinding>
+	</inputBinding>
+	
+	<l10n>
+		<text name="input_TOGGLE_3RD_PERSON_VIEW">
+			<en>Toggle Player View</en>
+			<!--de>de/TODO</de-->
+			<pl>Przełącz widok</pl>
+			<!--fr>fr/TODO</fr-->
+			<!--es>essa/TODO</es-->
+			<!--it>it/TODO</it-->
+			<!--cz>cz/TODO</cz-->
+		</text>
+	</l10n>
+  
+</modDesc>
