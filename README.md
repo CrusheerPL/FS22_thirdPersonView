@@ -19,7 +19,7 @@ Work in progress - mod contains bugs that will be corrected soon.
 
 To switch between first- and third person view press `L Shift + C`.
 
-TODO:
+TODO - what to fix:
 * player's model sometime partially disappears
 * changed view after leaving the vehicle
 * bugged player third person view after leaving the vehicle (not always) or the menu
