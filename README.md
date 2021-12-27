@@ -6,7 +6,7 @@ Prace w toku - mod zawiera błędy które zostaną w przyszłości poprawione.
 Aby przełączyć widok z pierwszej/trzeciej osoby wciśnij `Lewy Shift + C`.
 
 TODO - do poprawy:
-* model postaci czasem częściowo znika
+* model postaci czasami częściowo znika
 * widok z trzeciej osoby buguje się po wyjściu z menu budowy
 * porobić opisy
 * ikonkę też pasuje zrobić
@@ -19,7 +19,7 @@ Work in progress - mod contains bugs that will be corrected soon.
 To switch between first- and third person view press `L Shift + C`.
 
 TODO - what to fix:
-* player's model sometime partially disappears
+* player's model sometimes partially disappears
 * bugged player third person view after leaving the construction menu
 * make the descriptions (modDesc)
 * make new icon
