@@ -3,7 +3,7 @@ local ThirdPersonView_mt = Class(ThirdPersonView)
 
 function ThirdPersonView.new()
 	local self = {}
-	setmetatable({}, ThirdPersonView_mt)
+	setmetatable(self, ThirdPersonView_mt)
 
 	self.viewState = false -- is player 3rd person view enabled?
     Player.onLeaveVehicle = Utils.appendedFunction(Player.onLeaveVehicle, ThirdPersonView.restoreView)
