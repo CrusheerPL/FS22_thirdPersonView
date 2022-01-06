@@ -1,5 +1,7 @@
 # FS22_thirdPersonView
 
+<img src="https://abload.de/img/icon_tpvtfjrq.png" align="center"/>
+
 ### PL
 Prace w toku - mod zawiera błędy które zostaną w przyszłości poprawione.
 
@@ -22,4 +24,4 @@ TODO - what to fix:
 * bugged player third person view after leaving the construction menu
 * make the descriptions (modDesc)
 
-<img src="https://abload.de/img/fsscreen_2021_12_26_0ypkui.png" align="center"/>
+<img src="https://abload.de/img/fsscreen_2021_12_26_053ki4.png" align="center"/>
