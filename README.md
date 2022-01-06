@@ -9,7 +9,6 @@ TODO - do poprawy:
 * model postaci czasami częściowo znika
 * widok z trzeciej osoby buguje się po wyjściu z menu budowy
 * porobić opisy
-* ikonkę też pasuje zrobić
 
 Ale za to podstawowa funkcjonalność jest.
 
@@ -22,6 +21,5 @@ TODO - what to fix:
 * player's model sometimes partially disappears
 * bugged player third person view after leaving the construction menu
 * make the descriptions (modDesc)
-* make new icon
 
 <img src="https://abload.de/img/fsscreen_2021_12_26_0ypkui.png" align="center"/>
