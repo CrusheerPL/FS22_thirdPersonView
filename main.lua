@@ -4,7 +4,6 @@ local tpv
 function init()
     FSBaseMission.delete = Utils.appendedFunction(FSBaseMission.delete, unload)
     Mission00.load = Utils.prependedFunction(Mission00.load, mload)
-	
 	Player.new = Utils.overwrittenFunction(Player.new, playernew_inj)
 end
 

@@ -2,21 +2,20 @@
 local ThirdPersonView_mt = Class(ThirdPersonView)
 
 function ThirdPersonView.new()
-	local self = {}
-	setmetatable(self, ThirdPersonView_mt)
+	local self = setmetatable({}, ThirdPersonView_mt)
 
 	self.viewState = false -- is player 3rd person view enabled?
-    Player.onLeaveVehicle = Utils.appendedFunction(Player.onLeaveVehicle, ThirdPersonView.restoreView)
     Player.onEnter = Utils.appendedFunction(Player.onEnter, ThirdPersonView.restoreView)
+	ConstructionScreen.onClose = Utils.appendedFunction(ConstructionScreen.onClose, ThirdPersonView.restoreView)
 
 	return self
 end
 
 function ThirdPersonView:restoreView()
-	if self.viewState then for i=1, 2 do g_currentMission.player:consoleCommandThirdPersonView() end end
+	if g_currentMission.tpv.viewState then for i=1, 2 do g_currentMission.player:consoleCommandThirdPersonView() end end
 end
 
 function ThirdPersonView:toggleThirdPersonView()
 	g_currentMission.player:consoleCommandThirdPersonView()
-	self.viewState = not self.viewState
+	g_currentMission.tpv.viewState = not g_currentMission.tpv.viewState
 end

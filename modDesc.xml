@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="62">
 	<author>crpl</author>
-	<version>0.1.1.0</version>
+	<version>0.2.0.0</version>
 
 	<title>
 		<en>Third Person View</en>
 	</title>
 
 	<description>
-		<!--TODO: make new descriptions-->
-		<en><![CDATA[TODO]]></en>
-		<de><![CDATA[TODO]]></de>
-		<pl><![CDATA[TODO]]></pl>
-		<fr><![CDATA[TODO]]></fr>
+		<en><![CDATA[With this mod you can switch player view between first- and third person perspective while is out of the vehicle.
+To do this, press the C key.]]></en>
+		<de><![CDATA[Mit diesem Mod können Sie die Spieleransicht zwischen der First- und Third-Person-Perspektive wechseln, wenn es aus dem fahrzeug ist.
+Drücken Sie dazu die C-Taste.]]></de>
+		<pl><![CDATA[Ta modyfikacja dodaje możliwość aktywacji widoku postaci z perspektywy trzeciej osoby, gdy znajduje się poza pojazdem.
+Aby to zrobić, należy nacisnąć klawisz C.]]></pl>
+		<fr><![CDATA[Avec ce mod, vous pouvez basculer la vue du joueur entre la perspective à la première et à la troisième personne lorsque vous êtes hors du véhicule.
+Pour cela, appuyez sur la touche C.]]></fr>
 	</description>
 
 	<iconFilename>icon.dds</iconFilename>
@@ -29,7 +32,7 @@
 
 	<inputBinding>
 		<actionBinding action="TOGGLE_3RD_PERSON_VIEW">
-			<binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_c" />
+			<binding device="KB_MOUSE_DEFAULT" input="KEY_c" />
 		</actionBinding>
 	</inputBinding>
 	
