@@ -3,25 +3,47 @@
 <img src="https://abload.de/img/icon_tpvtfjrq.png" align="center"/>
 
 ### PL
-Prace w toku - mod zawiera błędy które zostaną w przyszłości poprawione.
+Ta modyfikacja dodaje możliwość aktywacji widoku postaci z perspektywy trzeciej osoby, gdy znajduje się poza pojazdem.
+Aby to zrobić, należy nacisnąć klawisz C.
 
-Aby przełączyć widok z pierwszej/trzeciej osoby wciśnij `Lewy Shift + C`.
+Znane błędy:
+* model postaci czasami częściowo lub całkowicie znika
+* widoki z pierwszej i trzeciej osoby są w przeciwnych kierunkach
 
-TODO - do poprawy:
-* model postaci czasami częściowo znika
-* widok z trzeciej osoby buguje się po wyjściu z menu budowy
-* porobić opisy
+CHANGELOG:
+* 0.2.0.0 (2022-01-06):
+  * widok z trzeciej osoby nie buguje się po wyjściu z menu budowy
+  * dodano opisy w modDesc
+  * nowa ikonka
+* 0.1.1.0 (2021-12-27):
+  * widok postaci nie przełącza się po wyjściu z pojazdu (przy załączonym widoku z trzeciej osoby)
+  * widok z trzeciej osoby nie buguje się po wyjściu z pojazdu lub z menu konfiguracji postaci
+  * skompletowano tłumaczenia do przypisań klawiszy
+* 0.1.0.0 (2021-12-26):
+  * Początkowa wersja
 
-Ale za to podstawowa funkcjonalność jest.
+**Prace w toku**
 
 ### EN
-Work in progress - mod contains bugs that will be corrected soon.
+With this mod you can switch player view between first- and third person perspective while is out of the vehicle.
+To do this, press the C key.
 
-To switch between first- and third person view press `L Shift + C`.
+Known issues:
+* player's model sometimes partially or completely disappears
+* player first- and third person views are in opposite directions
 
-TODO - what to fix:
-* player's model sometimes partially disappears
-* bugged player third person view after leaving the construction menu
-* make the descriptions (modDesc)
+**WORK IN PROGRESS**
+
+CHANGELOG:
+* 0.2.0.0 (Jan 6, 2022):
+  * 3rd person view isn't bugged after leaving the construction menu
+  * added description in modDesc
+  * new mod icon
+* 0.1.1.0 (Dec 27, 2021):
+  * Player view isn't switching after leaving a vehicle (when 3rd person view enabled)
+  * 3rd person view isn't bugged after leaving the vehicle or the wardrobe menu
+  * completed l10n for key bindings
+* 0.1.0.0 (Dec 26, 2021):
+  * Initial alpha release
 
 <img src="https://abload.de/img/fsscreen_2021_12_26_053ki4.png" align="center"/>
