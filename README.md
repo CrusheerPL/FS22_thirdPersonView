@@ -1,6 +1,6 @@
 # FS22_thirdPersonView
 
-<img src="https://abload.de/img/icon_tpvtfjrq.png" align="center"/>
+<img src="https://abload.de/img/fsscreen_2021_12_26_0tlkkb.png"/>
 
 ### PL
 Ta modyfikacja dodaje możliwość aktywacji widoku postaci z perspektywy trzeciej osoby, gdy znajduje się poza pojazdem.
@@ -9,6 +9,8 @@ Aby to zrobić, należy nacisnąć klawisz C.
 Znane błędy:
 * model postaci czasami częściowo lub całkowicie znika
 * widoki z pierwszej i trzeciej osoby są w przeciwnych kierunkach
+
+**Prace w toku**
 
 CHANGELOG:
 * 0.2.0.0 (2022-01-06):
@@ -21,8 +23,6 @@ CHANGELOG:
   * skompletowano tłumaczenia do przypisań klawiszy
 * 0.1.0.0 (2021-12-26):
   * Początkowa wersja
-
-**Prace w toku**
 
 ### EN
 With this mod you can switch player view between first- and third person perspective while is out of the vehicle.
@@ -45,5 +45,3 @@ CHANGELOG:
   * completed l10n for key bindings
 * 0.1.0.0 (Dec 26, 2021):
   * Initial alpha release
-
-<img src="https://abload.de/img/fsscreen_2021_12_26_053ki4.png" align="center"/>
