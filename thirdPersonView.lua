@@ -7,7 +7,7 @@ function ThirdPersonView.new()
 	self.viewState = false -- is player 3rd person view enabled?
 	self.latestPlayerRot = 0
 	
-	ConstructionScreen.onOpen = Utils.appendedFunction(ConstructionScreen.onClose, ThirdPersonView.restoreView)
+	--ConstructionScreen.onOpen = Utils.appendedFunction(ConstructionScreen.onClose, ThirdPersonView.restoreView)
 	ConstructionScreen.onClose = Utils.appendedFunction(ConstructionScreen.onClose, ThirdPersonView.restoreView)
     Player.onEnter = Utils.appendedFunction(Player.onEnter, ThirdPersonView.restoreView)
     Player.debugDraw = Utils.appendedFunction(Player.debugDraw, ThirdPersonView.debug)
