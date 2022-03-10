@@ -1,4 +1,5 @@
 # FS22_thirdPersonView
+### Project closed, no more updates will be released.
 
 <img src="https://abload.de/img/fsscreen_2021_12_26_0tlkkb.png"/>
 
